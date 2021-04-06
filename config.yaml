@@ -253,7 +253,7 @@ proxy-providers:
   #     url: http://www.gstatic.com/generate_204
   all:
     type: http
-    url: "https://proxypoolsstest.herokuapp.com/clash/proxies&c=CN,HK,TW,US,JP,SG&speed=5"
+    url: "https://proxypoolsstest.herokuapp.com/clash/proxies?c=CN,HK,TW,US,JP,SG&speed=5"
     path: proxypoolsstest.herokuapp.com/provider.yaml
     health-check:
       enable: true
