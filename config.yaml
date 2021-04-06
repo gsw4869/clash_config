@@ -157,7 +157,7 @@ proxy-providers:
   #     url: http://www.gstatic.com/generate_204
   cn:
     type: http
-    url: "https://proxypoolsstest.herokuapp.com/clash/proxies?c=CN,HK,TW&speed=5"
+    url: "https://proxypoolsstest.herokuapp.com/clash/proxies?c=CN,HK,TW"
     path: proxypoolsstest.herokuapp.com/provider-cn.yaml
     health-check:
       enable: true
@@ -165,7 +165,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   us:
     type: http
-    url: "https://proxypoolsstest.herokuapp.com/clash/proxies?c=US&speed=5"
+    url: "https://proxypoolsstest.herokuapp.com/clash/proxies?c=US"
     path: proxypoolsstest.herokuapp.com/provider-us.yaml
     health-check:
       enable: true
@@ -181,7 +181,7 @@ proxy-providers:
   #     url: http://www.gstatic.com/generate_204
   jp:
     type: http
-    url: "https://proxypoolsstest.herokuapp.com/clash/proxies?c=JP&speed=5"
+    url: "https://proxypoolsstest.herokuapp.com/clash/proxies?c=JP"
     path: proxypoolsstest.herokuapp.com/provider-jp.yaml
     health-check:
       enable: true
@@ -189,7 +189,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   sg:
     type: http
-    url: "https://proxypoolsstest.herokuapp.com/clash/proxies?c=SG&speed=5"
+    url: "https://proxypoolsstest.herokuapp.com/clash/proxies?c=SG"
     path: proxypoolsstest.herokuapp.com/provider-sg.yaml
     health-check:
       enable: true
@@ -253,7 +253,7 @@ proxy-providers:
   #     url: http://www.gstatic.com/generate_204
   all:
     type: http
-    url: "https://proxypoolsstest.herokuapp.com/clash/proxies?c=CN,HK,TW,US,JP,SG&speed=5"
+    url: "https://proxypoolsstest.herokuapp.com/clash/proxies?c=CN,HK,TW,US,JP,SG"
     path: proxypoolsstest.herokuapp.com/provider.yaml
     health-check:
       enable: true
