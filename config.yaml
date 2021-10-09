@@ -26,7 +26,7 @@ proxy-groups:
     proxies:
       - 延迟最低
       - 选择国家或地区
-      - 选择节点
+      # - 选择节点
       - 失败切换
       - 负载均衡
   - name: 选择国家或地区
@@ -35,7 +35,7 @@ proxy-groups:
       - 🇨🇳 中国
       - 🇯🇵 日本
       - 🇸🇬 新加坡
-      # - 🇺🇸 美国
+      - 🇺🇸 美国
       - 🇭🇰 香港
       # - 🇨🇳 台湾
       - 🇨🇦 加拿大
@@ -47,98 +47,69 @@ proxy-groups:
       - 🇬🇧 英国
       # - 🇳🇱 荷兰
       # - 其他国家
-  - name: 选择节点
-    type: select
-    use:
-      - all
+  # - name: 选择节点
+  #   type: select
+  #   use:
+  #     - all
   - name: 🇨🇳 中国
-    type: url-test
-    url: 'https://www.youtube.com'
-    interval: 300
+    type: select
     use:
       - cn
   - name: 🇭🇰 香港
-    type: url-test
-    url: 'https://www.youtube.com'
-    interval: 300
+    type: select
     use:
       - hk
   # - name: 🇨🇳 台湾
-  #   type: url-test
-  #   url: 'https://www.youtube.com'
+  #   type: select
   #   interval: 300
   #   use:
   #     - tw
   - name: 🇯🇵 日本
-    type: url-test
-    url: 'https://www.youtube.com'
-    interval: 300
+    type: select
     use:
       - jp
   - name: 🇸🇬 新加坡
-    type: url-test
-    url: 'https://www.youtube.com'
-    interval: 300
+    type: select
     use:
       - sg
-  # - name: 🇺🇸 美国
-  #   type: url-test
-  #   url: 'https://www.youtube.com'
-  #   interval: 300
-  #   use:
-  #     - us
+  - name: 🇺🇸 美国
+    type: select
+    use:
+      - us
   - name: 🇨🇦 加拿大
-    type: url-test
-    url: 'https://www.youtube.com'
-    interval: 300
+    type: select
     use:
       - ca
   # - name: 🇷🇺 俄罗斯
-  #   type: url-test
-  #   url: 'https://www.youtube.com'
-  #   interval: 300
+  #   type: select
   #   use:
   #     - ru
   - name: 🇦🇺 澳大利亚
-    type: url-test
-    url: 'https://www.youtube.com'
-    interval: 300
+    type: select
     use:
       - au
   # - name: 🇨🇭 瑞士
-  #   type: url-test
-  #   url: 'https://www.youtube.com'
-  #   interval: 300
+  #   type: select
   #   use:
   #     - ch
   # - name: 🇩🇪 德国
-  #   type: url-test
-  #   url: 'https://www.youtube.com'
-  #   interval: 300
+  #   type: select
   #   use:
   #     - de
   # - name: 🇫🇷 法国
-  #   type: url-test
-  #   url: 'https://www.youtube.com'
-  #   interval: 300
+  #   type: select
   #   use:
   #     - fr
   - name: 🇬🇧 英国
-    type: url-test
-    url: 'https://www.youtube.com'
-    interval: 300
+    type: select
     use:
       - gb
   # - name: 🇳🇱 荷兰
-  #   type: url-test
-  #   url: 'https://www.youtube.com'
-  #   interval: 300
+  #   type: select
   #   use:
   #     - nl
   # - name: 其他国家
-  #   type: url-test
-  #   url: 'https://www.youtube.com'
-  #   interval: 300
+  #   type: select
   #   use:
   #     - others
   - name: 延迟最低
@@ -193,14 +164,14 @@ proxy-providers:
   #     enable: true
   #     interval: 600
   #     url: https://www.youtube.com
-  # us:
-  #   type: http
-  #   url: "https://sspool.nl/clash/proxies?c=US&speed=10"
-  #   path: sspool.nl/provider-us.yaml
-  #   health-check:
-  #     enable: true
-  #     interval: 600
-  #     url: https://www.youtube.com
+  us:
+    type: http
+    url: "https://sspool.nl/clash/proxies?c=US"
+    path: sspool.nl/provider-us.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: https://www.youtube.com
   ca:
     type: http
     url: "https://sspool.nl/clash/proxies?c=CA"
