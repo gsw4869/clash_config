@@ -3,3 +3,4 @@
 *.mmdb
 *.yaml
 .DS_Store
+*.yml
