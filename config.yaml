@@ -6959,5 +6959,6 @@ rules:
   # hacker news web site
   - DOMAIN-SUFFIX,news.ycombinator.com,全局选择
   - DOMAIN-SUFFIX,wikimedia.org,全局选择
+  - DOMAIN-SUFFIX,manhuagui.com,全局选择
 
   - MATCH,DIRECT
