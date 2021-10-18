@@ -6977,5 +6977,12 @@ rules:
   - DOMAIN-SUFFIX,netflixdnstest7.com,全局选择
   - DOMAIN-SUFFIX,netflixdnstest8.com,全局选择
   - DOMAIN-SUFFIX,netflixdnstest9.com,全局选择
+  - DOMAIN-SUFFIX,wiktionary.org,全局选择
+  - DOMAIN-SUFFIX,wikiquote.org,全局选择
+  - DOMAIN-SUFFIX,wikibooks.org,全局选择
+  - DOMAIN-SUFFIX,wikisource.org,全局选择
+  - DOMAIN-SUFFIX,wikinews.org,全局选择
+  - DOMAIN-SUFFIX,wikiversity.org,全局选择
+  
 
   - MATCH,DIRECT
