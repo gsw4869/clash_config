@@ -6960,5 +6960,21 @@ rules:
   - DOMAIN-SUFFIX,news.ycombinator.com,全局选择
   - DOMAIN-SUFFIX,wikimedia.org,全局选择
   - DOMAIN-SUFFIX,manhuagui.com,全局选择
+  - DOMAIN-SUFFIX,netflix.net,全局选择
+  - DOMAIN-SUFFIX,nflxext.com,全局选择
+  - DOMAIN-SUFFIX,nflximg.com,全局选择
+  - DOMAIN-SUFFIX,nflximg.net,全局选择
+  - DOMAIN-SUFFIX,nflxso.net,全局选择
+  - DOMAIN-SUFFIX,nflxvideo.net,全局选择
+  - DOMAIN-SUFFIX,netflixdnstest0.com,全局选择
+  - DOMAIN-SUFFIX,netflixdnstest1.com,全局选择
+  - DOMAIN-SUFFIX,netflixdnstest2.com,全局选择
+  - DOMAIN-SUFFIX,netflixdnstest3.com,全局选择
+  - DOMAIN-SUFFIX,netflixdnstest4.com,全局选择
+  - DOMAIN-SUFFIX,netflixdnstest5.com,全局选择
+  - DOMAIN-SUFFIX,netflixdnstest6.com,全局选择
+  - DOMAIN-SUFFIX,netflixdnstest7.com,全局选择
+  - DOMAIN-SUFFIX,netflixdnstest8.com,全局选择
+  - DOMAIN-SUFFIX,netflixdnstest9.com,全局选择
 
   - MATCH,DIRECT
