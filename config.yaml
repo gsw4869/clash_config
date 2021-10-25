@@ -6983,7 +6983,7 @@ rules:
   - DOMAIN-SUFFIX,wikisource.org,全局选择
   - DOMAIN-SUFFIX,wikinews.org,全局选择
   - DOMAIN-SUFFIX,wikiversity.org,全局选择
-  - DOMAIN-SUFFIX,nncs1-lp1.n.n.srv.nintendo.net,全局选择
+  - DOMAIN-SUFFIX,nintendo.net,全局选择
 
 
   - MATCH,DIRECT
