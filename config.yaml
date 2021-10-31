@@ -2161,7 +2161,7 @@ rules:
   - DOMAIN-SUFFIX,cdef.org,全局选择
   - DOMAIN-SUFFIX,cdig.info,全局选择
   - DOMAIN-SUFFIX,cdjp.org,全局选择
-  - DOMAIN-SUFFIX,cdn-apple.com,全局选择
+  # - DOMAIN-SUFFIX,cdn-apple.com,全局选择
   - DOMAIN-SUFFIX,cdn-images.mailchimp.com,全局选择
   - DOMAIN-SUFFIX,cdn.assets.lfpcontent.com,全局选择
   - DOMAIN-SUFFIX,cdn.helixstudios.net,全局选择
