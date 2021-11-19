@@ -7001,6 +7001,7 @@ rules:
   - DOMAIN-SUFFIX,wikisource.org,全局选择
   - DOMAIN-SUFFIX,wikinews.org,全局选择
   - DOMAIN-SUFFIX,wikiversity.org,全局选择
+  - DOMAIN-SUFFIX,steam-chat.com,全局选择
 
 
   - MATCH,DIRECT
