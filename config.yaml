@@ -3870,6 +3870,8 @@ rules:
   - DOMAIN-SUFFIX,piring.com,全局选择
   - DOMAIN-SUFFIX,pixelqi.com,全局选择
   - DOMAIN-SUFFIX,pixiv.net,全局选择
+  - DOMAIN-SUFFIX,pximg.net,全局选择
+  - DOMAIN-SUFFIX,ads-pixiv.net,全局选择
   - DOMAIN-SUFFIX,pixnet.net,全局选择
   - DOMAIN-SUFFIX,pk.com,全局选择
   - DOMAIN-SUFFIX,pki.goog,全局选择
