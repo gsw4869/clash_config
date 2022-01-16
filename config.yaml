@@ -5894,4 +5894,6 @@ rules:
   - DOMAIN-SUFFIX,wikiversity.org,全局选择
   - DOMAIN-SUFFIX,steam-chat.com,全局选择
   - DOMAIN-SUFFIX,freestreams-live1.com,全局选择
+  - DOMAIN-SUFFIX,fast.com,全局选择
+
   - MATCH,DIRECT
