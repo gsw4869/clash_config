@@ -4518,7 +4518,7 @@ rules:
   - DOMAIN-SUFFIX,stoporganharvesting.org,全局选择
   - DOMAIN-SUFFIX,stoptibetcrisis.net,全局选择
   - DOMAIN-SUFFIX,storagenewsletter.com,全局选择
-  - DOMAIN-SUFFIX,store.steampowered.com,全局选择
+  # - DOMAIN-SUFFIX,store.steampowered.com,全局选择
   - DOMAIN-SUFFIX,stories.google,全局选择
   - DOMAIN-SUFFIX,storify.com,全局选择
   - DOMAIN-SUFFIX,storm.mg,全局选择
