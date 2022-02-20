@@ -126,8 +126,8 @@ proxy-groups:
 proxy-providers:
   # au:
   #   type: http
-  #   url: "https://sspool.nl/clash/proxies?c=AU"
-  #   path: sspool.nl/provider-au.yaml
+  #   url: "https://sspool.herokuapp.com/clash/proxies?c=AU"
+  #   path: sspool.herokuapp.com/provider-au.yaml
   #   interval: 172800
   #   health-check:
   #     enable: true
@@ -135,8 +135,8 @@ proxy-providers:
   #     url: https://www.youtube.com
   cn:
     type: http
-    url: "https://sspool.nl/clash/proxies?c=CN"
-    path: sspool.nl/provider-cn.yaml
+    url: "https://sspool.herokuapp.com/clash/proxies?c=CN"
+    path: sspool.herokuapp.com/provider-cn.yaml
     interval: 172800
     health-check:
       enable: true
@@ -144,8 +144,8 @@ proxy-providers:
       url: https://www.youtube.com
   hk:
     type: http
-    url: "https://sspool.nl/clash/proxies?c=HK"
-    path: sspool.nl/provider-hk.yaml
+    url: "https://sspool.herokuapp.com/clash/proxies?c=HK"
+    path: sspool.herokuapp.com/provider-hk.yaml
     interval: 172800
     health-check:
       enable: true
@@ -153,8 +153,8 @@ proxy-providers:
       url: https://www.youtube.com
   # tw:
   #   type: http
-  #   url: "https://sspool.nl/clash/proxies?c=TW"
-  #   path: sspool.nl/provider-tw.yaml
+  #   url: "https://sspool.herokuapp.com/clash/proxies?c=TW"
+  #   path: sspool.herokuapp.com/provider-tw.yaml
   #   interval: 172800
   #   health-check:
   #     enable: true
@@ -162,8 +162,8 @@ proxy-providers:
   #     url: https://www.youtube.com
   us:
     type: http
-    url: "https://sspool.nl/clash/proxies?c=US"
-    path: sspool.nl/provider-us.yaml
+    url: "https://sspool.herokuapp.com/clash/proxies?c=US"
+    path: sspool.herokuapp.com/provider-us.yaml
     interval: 172800
     health-check:
       enable: true
@@ -171,8 +171,8 @@ proxy-providers:
       url: https://www.youtube.com
   ca:
     type: http
-    url: "https://sspool.nl/clash/proxies?c=CA"
-    path: sspool.nl/provider-ca.yaml
+    url: "https://sspool.herokuapp.com/clash/proxies?c=CA"
+    path: sspool.herokuapp.com/provider-ca.yaml
     interval: 172800
     health-check:
       enable: true
@@ -180,8 +180,8 @@ proxy-providers:
       url: https://www.youtube.com
   jp:
     type: http
-    url: "https://sspool.nl/clash/proxies?c=JP"
-    path: sspool.nl/provider-jp.yaml
+    url: "https://sspool.herokuapp.com/clash/proxies?c=JP"
+    path: sspool.herokuapp.com/provider-jp.yaml
     interval: 172800
     health-check:
       enable: true
@@ -189,8 +189,8 @@ proxy-providers:
       url: https://www.youtube.com
   # sg:
   #   type: http
-  #   url: "https://sspool.nl/clash/proxies?c=SG"
-  #   path: sspool.nl/provider-sg.yaml
+  #   url: "https://sspool.herokuapp.com/clash/proxies?c=SG"
+  #   path: sspool.herokuapp.com/provider-sg.yaml
   #   interval: 172800
   #   health-check:
   #     enable: true
@@ -198,8 +198,8 @@ proxy-providers:
   #     url: https://www.youtube.com
   # ru:
   #   type: http
-  #   url: "https://sspool.nl/clash/proxies?c=RU"
-  #   path: sspool.nl/provider-ru.yaml
+  #   url: "https://sspool.herokuapp.com/clash/proxies?c=RU"
+  #   path: sspool.herokuapp.com/provider-ru.yaml
   #   interval: 172800
   #   health-check:
   #     enable: true
@@ -207,8 +207,8 @@ proxy-providers:
   #     url: https://www.youtube.com
   # ch:
   #   type: http
-  #   url: "https://sspool.nl/clash/proxies?c=CH"
-  #   path: sspool.nl/provider-ch.yaml
+  #   url: "https://sspool.herokuapp.com/clash/proxies?c=CH"
+  #   path: sspool.herokuapp.com/provider-ch.yaml
   #   interval: 172800
   #   health-check:
   #     enable: true
@@ -216,8 +216,8 @@ proxy-providers:
   #     url: https://www.youtube.com
   # de:
   #   type: http
-  #   url: "https://sspool.nl/clash/proxies?c=DE"
-  #   path: sspool.nl/provider-de.yaml
+  #   url: "https://sspool.herokuapp.com/clash/proxies?c=DE"
+  #   path: sspool.herokuapp.com/provider-de.yaml
   #   interval: 172800
   #   health-check:
   #     enable: true
@@ -225,8 +225,8 @@ proxy-providers:
   #     url: https://www.youtube.com
   # fr:
   #   type: http
-  #   url: "https://sspool.nl/clash/proxies?c=FR"
-  #   path: sspool.nl/provider-fr.yaml
+  #   url: "https://sspool.herokuapp.com/clash/proxies?c=FR"
+  #   path: sspool.herokuapp.com/provider-fr.yaml
   #   interval: 172800
   #   health-check:
   #     enable: true
@@ -234,8 +234,8 @@ proxy-providers:
   #     url: https://www.youtube.com
   gb:
     type: http
-    url: "https://sspool.nl/clash/proxies?c=GB"
-    path: sspool.nl/provider-gb.yaml
+    url: "https://sspool.herokuapp.com/clash/proxies?c=GB"
+    path: sspool.herokuapp.com/provider-gb.yaml
     interval: 172800
     health-check:
       enable: true
@@ -243,8 +243,8 @@ proxy-providers:
       url: https://www.youtube.com
   # nl:
   #   type: http
-  #   url: "https://sspool.nl/clash/proxies?c=NL"
-  #   path: sspool.nl/provider-nl.yaml
+  #   url: "https://sspool.herokuapp.com/clash/proxies?c=NL"
+  #   path: sspool.herokuapp.com/provider-nl.yaml
   #   interval: 172800
   #   health-check:
   #     enable: true
@@ -252,8 +252,8 @@ proxy-providers:
   #     url: https://www.youtube.com
   # others:
   #   type: http
-  #   url: "https://sspool.nl/clash/proxies?nc=CN,HK,TW,US,CA,JP,SG,AU,CH,DE,GB,NL,FR,RU"
-  #   path: sspool.nl/provider-others.yaml
+  #   url: "https://sspool.herokuapp.com/clash/proxies?nc=CN,HK,TW,US,CA,JP,SG,AU,CH,DE,GB,NL,FR,RU"
+  #   path: sspool.herokuapp.com/provider-others.yaml
   #   interval: 172800
   #   health-check:
   #     enable: true
@@ -261,8 +261,8 @@ proxy-providers:
   #     url: https://www.youtube.com
   all:
     type: http
-    url: "https://sspool.nl/clash/proxies?c=CN,HK,US,JP,CA,GB"
-    path: sspool.nl/provider.yaml
+    url: "https://sspool.herokuapp.com/clash/proxies?c=CN,HK,US,JP,CA,GB"
+    path: sspool.herokuapp.com/provider.yaml
     interval: 172800
     health-check:
       enable: true
